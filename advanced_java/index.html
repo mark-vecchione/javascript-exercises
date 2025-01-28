@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Library</h1>
+    <form id="book-form">
+        <input type="text" id="title" placeholder="Book Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="number_pages" placeholder="Number of Pages" required>
+        <select id="read">
+            <option value="read">Read</option>
+            <option value="not read yet">Not Read Yet</option>
+        </select>
+        <button type="submit">Add Book</button>
+    </form>
+    <div id="library-container"></div>
+    <script src="objects_exercise.js"></script>
+</body>
+</html>
